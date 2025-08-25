@@ -1,0 +1,91 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+ #container{
+     background-image: url("landingpageimage.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+ }
+
+ header{
+    display: flex;
+    flex-direction: row;
+    color: white;
+ }
+
+ header ul{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    margin-left: 700px;
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 30px;
+
+ }
+
+ #logo{
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-weight: 200px;
+ }
+
+ header li:hover{
+    border-bottom: 2px solid darkmagenta;
+    color: darkmagenta;
+
+ }
+
+ #learnBtn{
+    margin:20px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 1185px;
+    border-radius: 25px;
+    background-color: #000 ;
+    border: 2px solid white;
+    color: white;
+
+ }
+
+ #learnBtn:hover{
+    box-shadow: 0 0 2px 2px whitesmoke ;
+ }
+
+ #hero{
+    margin-left: 60px;
+    color: whitesmoke;
+ }
+
+ #heading{
+    font-size: xxx-large;
+    text-shadow: 2px 2px 2px 2px whitesmoke;
+ }
+
+ #hero p{
+    font-size: 20px;
+ }
+
+ #signupBtn{
+    margin-left: 60px;
+    margin-top: 150px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 25px;
+    background-color: #000;
+    border: 2px solid white;
+    color: whitesmoke
+ }
+
+ #signupBtn:hover{
+     box-shadow: 0 0 2px 2px whitesmoke ;
+ }
